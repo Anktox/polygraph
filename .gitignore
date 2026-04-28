@@ -1,0 +1,46 @@
+# Python caches and build output
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Generated PolyGraph output
+graphs/
+graph.html
+graph_data.json
+*_graph.html
+*_graph_data.json
+
+# Local scratch plan from initial build
+New Text Document.txt
+
+# Local secrets and machine-specific config
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Editor and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
