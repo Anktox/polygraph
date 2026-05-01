@@ -19,6 +19,34 @@ No server is required. Open the generated HTML file in a browser.
 
 ## Usage
 
+### Interactive Mode
+
+If you want the simplest flow, run the interactive launcher:
+
+```powershell
+python interactive_polygraph.py
+```
+
+Then:
+
+- Paste the folder path you want to graph
+- Confirm the scan when prompted
+- Open the generated HTML file from the `graphs/` folder
+
+PolyGraph will automatically create files like:
+
+- `graphs\your_folder_graph.html`
+- `graphs\your_folder_graph_data.json`
+
+Example:
+
+```powershell
+python interactive_polygraph.py
+start graphs\your_folder_graph.html
+```
+
+### Command-Line Mode
+
 ```powershell
 python polygraph.py --path . --output graph.html
 python polygraph.py --path C:\path\to\project --output graph.html --depth import
